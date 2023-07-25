@@ -727,6 +727,15 @@ function ATSWFrame_Update()
 			ATSWCollapseAllButton:Enable();
 		end
 		
+		local count = 0
+		for i=1,table.getn(atsw_skilllisting),1 do
+
+			if ATSW_Filter(atsw_skilllisting[i].name) then
+				count = count + 1
+			end
+		end
+		numTradeSkills = count
+		
 		FauxScrollFrame_Update(ATSWListScrollFrame, numTradeSkills, ATSW_TRADE_SKILLS_DISPLAYED, ATSW_TRADE_SKILL_HEIGHT, nil, nil, nil, ATSWHighlightFrame, 293, 316);
 		ATSWHighlightFrame:Hide();
 		local jumped=1;
@@ -869,8 +878,8 @@ function ATSWFrame_SetSelection(id,wasClicked)
 			skillOffset = math.floor( idpos / ATSW_TRADE_SKILLS_DISPLAYED) * ATSW_TRADE_SKILLS_DISPLAYED
 			
 			
-			FauxScrollFrame_SetOffset(ATSWListScrollFrame, skillOffset);
-			ATSWListScrollFrameScrollBar:SetValue(skillOffset * ATSW_TRADE_SKILL_HEIGHT);
+			--FauxScrollFrame_SetOffset(ATSWListScrollFrame, skillOffset);
+			--ATSWListScrollFrameScrollBar:SetValue(skillOffset * ATSW_TRADE_SKILL_HEIGHT);
 		end
 		
 	end
