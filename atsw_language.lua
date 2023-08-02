@@ -19,7 +19,7 @@ if(GetLocale()=="deDE") then
 	ATSW_DELETEQUEUE = "Queue leeren";
 	ATSW_ITEMSMISSING1 = "Leider fehlen zur Herstellung von ";
 	ATSW_ITEMSMISSING2 = " folgende Items:";
-	ATSW_FILTERLABEL = "Filter:";
+	ATSW_FILTERLABEL = "Filter";
 	ATSW_REAGENTLIST1 = "Zur Herstellung von 1x ";
 	ATSW_REAGENTLIST2 = " werden folgende Reagenzien ben\195\182tigt:";
 	ATSW_REAGENTFRAMETITLE = "Zur Abarbeitung der Queue werden folgende Reagenzien ben\195\182tigt:";
@@ -100,7 +100,7 @@ elseif (GetLocale()=="frFR") then
 	ATSW_DELETEQUEUE = "Vider la file";
 	ATSW_ITEMSMISSING1 = "Vous avez besoin des objets suivants pour produire ";
 	ATSW_ITEMSMISSING2 = ":";
-	ATSW_FILTERLABEL = "Filtre:";
+	ATSW_FILTERLABEL = "Filtre";
 	ATSW_REAGENTLIST1 = "Pour produir 1x ";
 	ATSW_REAGENTLIST2 = " les composants suivants sont n\195\169cessaire:";
 	ATSW_REAGENTFRAMETITLE = "Les Composants suivants sont n\195\169cessaire pour produire la file:";
@@ -173,7 +173,7 @@ elseif(GetLocale()=="esES") then
 	ATSW_DELETEQUEUE = "Vacia Cola";
 	ATSW_ITEMSMISSING1 = "Necesitas los siguientes ingredientes para producir ";
 	ATSW_ITEMSMISSING2 = ":";
-	ATSW_FILTERLABEL = "Filtro:";
+	ATSW_FILTERLABEL = "Filtro";
 	ATSW_REAGENTLIST1 = "Para producir 1x ";
 	ATSW_REAGENTLIST2 = " hacen falta los siguientes ingredientes:";
 	ATSW_REAGENTFRAMETITLE = "The following reagents are needed to process the queue:";
@@ -247,7 +247,7 @@ elseif (GetLocale()=="ruRU") then
 	ATSW_DELETEQUEUE = "Очистить очередь";
 	ATSW_ITEMSMISSING1 = "К сожалению для создания ";
 	ATSW_ITEMSMISSING2 = " отсутствуют следущие предметы:";
-	ATSW_FILTERLABEL = "Фильтр:";
+	ATSW_FILTERLABEL = "Фильтр";
 	ATSW_REAGENTLIST1 = "Чтобы создать 1x ";
 	ATSW_REAGENTLIST2 = ", нужны следующие реагенты:";
 	ATSW_REAGENTFRAMETITLE = "Для обработки очереди нужны следующие реагенты:";
@@ -320,7 +320,7 @@ else
 	ATSW_DELETEQUEUE = "Empty Queue";
 	ATSW_ITEMSMISSING1 = "You need the following items to produce ";
 	ATSW_ITEMSMISSING2 = ":";
-	ATSW_FILTERLABEL = "Filter:";
+	ATSW_FILTERLABEL = "Filter";
 	ATSW_REAGENTLIST1 = "To produce 1x ";
 	ATSW_REAGENTLIST2 = " the following reagents are needed:";
 	ATSW_REAGENTFRAMETITLE = "The following reagents are needed to process the queue:";
